@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <report id="report_designer_agreement"
+            name="designer.agreement.webkit"
+            auto="False"
+            model="designer.agreement"
+            file="designer_webkit/report/designer_agreement.mako"
+            string="合同"
+            webkit_header="base_headers_webkit.base_reports_portrait_header"
+            report_type="webkit"/>
+  </data>
+</openerp>
